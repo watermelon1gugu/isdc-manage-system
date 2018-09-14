@@ -116,7 +116,7 @@
     export default {
         data() {
             return {
-                url: '/api/wechat/form',
+                url: '/api/join/form',
                 tableData: [],
                 dialogFormVisible: false,
                 formLabelWidth: '120px',
@@ -140,7 +140,7 @@
                 this.dialogFormVisible = true;
             },
             updateDevice(form) {
-                this.$http.put('/api/wechat/form', form).then((res) => {
+                this.$http.put('/api/join/form', form).then((res) => {
                     Vue.set(this.tableData, this.editing, form);
                     this.dialogFormVisible = false;
                     this.$message.success('更新成功');
