@@ -12,6 +12,8 @@
 
         </div>
 
+        <img src="../../../static/img/img.jpg"/>
+
         <el-table stripe :data="tableData" height="600" border style="width: 100%">
             <el-table-column prop="id" label="题目编号">
             </el-table-column>
