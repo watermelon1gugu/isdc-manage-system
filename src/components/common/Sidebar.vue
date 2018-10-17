@@ -44,6 +44,11 @@
                                 title:'添加题目'
                             }*/
 
+                    },
+                    {
+                        icon: 'el-icon-setting',
+                        index: 'homework',
+                        title: '作业',
                     }
                 ]
             }

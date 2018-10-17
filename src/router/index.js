@@ -21,6 +21,9 @@ export default new Router({
                     path:'/ctf',
                     component: resolve => require(['../components/page/CTFTable.vue'], resolve)
 
+                },{
+                    path:'/homework',
+                    component: resolve => require(['../components/page/HomeWork'], resolve)
                 }/*{
                     path: '/ctfProblem',
                     component: resolve => require(['../components/page/CTFPlatform.vue'], resolve)

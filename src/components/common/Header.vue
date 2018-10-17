@@ -38,7 +38,7 @@
                         }
                     });
                 }).catch(() => {
-                    window.location.href = 'https://www.scuisdc.org'
+                    /*window.location.href = 'https://www.scuisdc.org'*/
                 });
             },
             handleCommand(command) {
